@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>synthesis - leon.lang.synthesis</title>
+          <meta name="description" content="synthesis - leon.lang.synthesis" />
+          <meta name="keywords" content="synthesis leon.lang.synthesis" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../index.html';
+            var hash = 'leon.lang.synthesis.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../lib/package_big.png" />
+        <p id="owner"><a href="../../package.html" class="extype" name="leon">leon</a>.<a href="../package.html" class="extype" name="leon.lang">lang</a></p>
+        <h1>synthesis</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synthesis</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="leon.lang.synthesis"><span>synthesis</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="leon.lang.synthesis.Leaf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Leaf[T]extendsOracle[T]withProductwithSerializable"></a>
+      <a id="Leaf[T]:Leaf[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Leaf.html"><span class="name">Leaf</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="v">v: <span class="extype" name="leon.lang.synthesis.Leaf.T">T</span></span>)</span><span class="result"> extends <a href="Oracle.html" class="extype" name="leon.lang.synthesis.Oracle">Oracle</a>[<span class="extype" name="leon.lang.synthesis.Leaf.T">T</span>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.Node" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Node[T]extendsOracle[T]withProductwithSerializable"></a>
+      <a id="Node[T]:Node[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Node.html"><span class="name">Node</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="l">l: <a href="Oracle.html" class="extype" name="leon.lang.synthesis.Oracle">Oracle</a>[<span class="extype" name="leon.lang.synthesis.Node.T">T</span>]</span>, <span name="v">v: <span class="extype" name="leon.lang.synthesis.Node.T">T</span></span>, <span name="r">r: <a href="Oracle.html" class="extype" name="leon.lang.synthesis.Oracle">Oracle</a>[<span class="extype" name="leon.lang.synthesis.Node.T">T</span>]</span>)</span><span class="result"> extends <a href="Oracle.html" class="extype" name="leon.lang.synthesis.Oracle">Oracle</a>[<span class="extype" name="leon.lang.synthesis.Node.T">T</span>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.Oracle" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="Oracle[T]extendsAnyRef"></a>
+      <a id="Oracle[T]:Oracle[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Oracle.html"><span class="name">Oracle</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@implicitNotFound</span><span class="args">(<span>
+      
+      <span class="defval" name="&quot;No Oracle available for this source of non-determinism, please provide an implicit arg &lt;: Oracle[T]&quot;">...</span>
+    </span>)</span>
+              
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+                <span class="name">@<a href="../../annotation/package$$library.html" class="extype" name="leon.annotation.library">library</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="leon.lang.synthesis.package#?" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="?[T](e1:T,es:T*):T"></a>
+      <a id="?[T](T,T*):T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $qmark" class="name">?</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="e1">e1: <span class="extype" name="leon.lang.synthesis.?.T">T</span></span>, <span name="es">es: <span class="extype" name="leon.lang.synthesis.?.T">T</span>*</span>)</span><span class="result">: <span class="extype" name="leon.lang.synthesis.?.T">T</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#?" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="?[T](e1:T):T"></a>
+      <a id="?[T](T):T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $qmark" class="name">?</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="e1">e1: <span class="extype" name="leon.lang.synthesis.?.T">T</span></span>)</span><span class="result">: <span class="extype" name="leon.lang.synthesis.?.T">T</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#?!" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="?![T](es:Any*):T"></a>
+      <a id="?![T](Any*):T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $qmark$bang" class="name">?!</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="es">es: <span class="extype" name="scala.Any">Any</span>*</span>)</span><span class="result">: <span class="extype" name="leon.lang.synthesis.?!.T">T</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#???" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="???[T]:T"></a>
+      <a id="???[T]:T"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $qmark$qmark$qmark" class="name">???</span><span class="tparams">[<span name="T">T</span>]</span><span class="result">: <span class="extype" name="leon.lang.synthesis.???.T">T</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#choose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="choose[A,B,C,D,E](predicate:(A,B,C,D,E)=&gt;Boolean):(A,B,C,D,E)"></a>
+      <a id="choose[A,B,C,D,E]((A,B,C,D,E)⇒Boolean):(A,B,C,D,E)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">choose</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>, <span name="C">C</span>, <span name="D">D</span>, <span name="E">E</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>, <span class="extype" name="leon.lang.synthesis.choose.D">D</span>, <span class="extype" name="leon.lang.synthesis.choose.E">E</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>, <span class="extype" name="leon.lang.synthesis.choose.D">D</span>, <span class="extype" name="leon.lang.synthesis.choose.E">E</span>)</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#choose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="choose[A,B,C,D](predicate:(A,B,C,D)=&gt;Boolean):(A,B,C,D)"></a>
+      <a id="choose[A,B,C,D]((A,B,C,D)⇒Boolean):(A,B,C,D)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">choose</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>, <span name="C">C</span>, <span name="D">D</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>, <span class="extype" name="leon.lang.synthesis.choose.D">D</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>, <span class="extype" name="leon.lang.synthesis.choose.D">D</span>)</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#choose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="choose[A,B,C](predicate:(A,B,C)=&gt;Boolean):(A,B,C)"></a>
+      <a id="choose[A,B,C]((A,B,C)⇒Boolean):(A,B,C)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">choose</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>, <span name="C">C</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>, <span class="extype" name="leon.lang.synthesis.choose.C">C</span>)</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#choose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="choose[A,B](predicate:(A,B)=&gt;Boolean):(A,B)"></a>
+      <a id="choose[A,B]((A,B)⇒Boolean):(A,B)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">choose</span><span class="tparams">[<span name="A">A</span>, <span name="B">B</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>, <span class="extype" name="leon.lang.synthesis.choose.B">B</span>)</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#choose" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="choose[A](predicate:A=&gt;Boolean):A"></a>
+      <a id="choose[A]((A)⇒Boolean):A"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">choose</span><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="leon.lang.synthesis.choose.A">A</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="leon.lang.synthesis.choose.A">A</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="leon.lang.synthesis.package#withOracle" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="withOracle[A,R](body:leon.lang.synthesis.Oracle[A]=&gt;R):R"></a>
+      <a id="withOracle[A,R]((Oracle[A])⇒R):R"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">withOracle</span><span class="tparams">[<span name="A">A</span>, <span name="R">R</span>]</span><span class="params">(<span name="body">body: (<a href="Oracle.html" class="extype" name="leon.lang.synthesis.Oracle">Oracle</a>[<span class="extype" name="leon.lang.synthesis.withOracle.A">A</span>]) ⇒ <span class="extype" name="leon.lang.synthesis.withOracle.R">R</span></span>)</span><span class="result">: <span class="extype" name="leon.lang.synthesis.withOracle.R">R</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a href="../../annotation/package$$ignore.html" class="extype" name="leon.annotation.ignore">ignore</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../lib/template.js"></script>
+    </body>
+      </html>
